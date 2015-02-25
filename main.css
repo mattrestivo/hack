@@ -1,0 +1,128 @@
+body {
+	background-color: #000;
+	color: #EAEAEA;
+	font-family: Sintony-Bold, sans-serif;
+}
+.light-font {
+	font-family: Sintony, sans-serif;;
+}
+
+/* standard stuff */
+#video-content {
+	overflow: visible;
+	margin: auto;
+	width: 990px;
+	padding: 0 0 60px 60px;
+}
+#video-seperator {
+	border-top: 6px solid #33c6f7;
+}
+#video-nav {
+	padding: 10px 0;
+}
+ul#nav-items {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+		width: 100%;
+}
+ul#nav-items li {
+	display: inline;
+	font-size: 20px;
+/*	width: 100px;*/
+}
+#search input {
+	display: none;
+}
+
+/* video area */
+#video-main {
+	float: left;
+	width: 714px;
+	margin-right: 10px;
+}
+
+#playerContainer1 {
+	/* defined inline for now */	
+}
+
+/* video info */
+#video-info {
+	background-color: #333;
+	padding: 5px 10px;
+	border: 3px solid #444;
+	margin-left: 10px;
+}
+#video-info span:first-child {
+	
+}
+#video-info span:last-child {
+	
+}
+#video-user-favorite {
+	
+}
+#video-info h1 {
+
+}
+#video-info p {
+
+}
+#video-info #video-tags .tag {
+	
+}
+#video-comments {
+	
+}
+
+
+/* related */
+#video-related {
+	float: left;
+}
+.video-related-section {
+	background-color: #333;
+	height: 100%;
+	width: 202px;
+}
+.video-related-header {
+	font-size: 14px;
+	background-color: #777;
+	padding: 6px 2px 0;
+	height: 32px;
+}
+.video-related-header h4 {
+	margin: 4px;
+}
+.video-related-collection {
+	
+}
+.video-related-single {
+	margin: 12px 20px 12px 20px;
+}
+.video-related-single video {
+	width: 192px;
+	height: 96px;
+	padding: 0 9px;
+}
+.video-related-single .thumb img {
+	
+}
+.video-related-single .user-favorite {
+	/* make this overlay */
+}
+.video-related-single .share {
+	/* make this overlay */
+}
+.video-related-single h5 {
+	margin: 2px 0px;
+}
+.video-related-length-date {
+	font-size: 10px;
+}
+.video-related-length-date span:first-child {
+
+}
+.video-related-length-date span:last-child {
+	
+}
