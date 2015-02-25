@@ -1,0 +1,214 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>NHL Video - Title Here</title>
+  <meta name="description" content="Video Description">
+  <meta name="author" content="NHL">
+
+  <link rel="stylesheet" href="css/main.css?v=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+	<!--<script src="js/scripts.js"></script>-->
+
+	<!-- init fb script -->
+	<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '201300416589515',
+          xfbml      : true,
+          version    : 'v2.1'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+<!-- video content area -->
+<div id="video-content">
+	
+	<!-- video navi -->
+	<div id="video-seperator"></div>
+	<div id="video-nav">
+		<ul id="nav-items">
+			<li>HOME</li>
+			<li>HIGHLIGHTS</li>
+			<li>NHL NETWORK</li>
+			<li>SPECIAL EVENTS</li>
+			<li>HISTORY</li>
+			<li>MY NHL</li>
+		</ul>
+		<div id="search">
+			<input type="text"/>
+		</div>
+	</div>
+	
+	<!-- left col -->
+	<div id="video-main">
+		<div id="playerContainer1" style="width:640px;height:395px;"></div>
+		<div id="video-info">
+			<div id="video-length-date">
+				<span id="video-length">00:46</span> | <span id="video-date" class="rel-time" data-ts="02/21/2015 00:15:58 AM">5 hours ago</span>
+			</div>
+			<div id="video-user-favorite" class="video" data-id="1234">
+				<a class="user-favorite-action" href="#"></a>
+			</div>
+			<h1>Palmieri beats Hiller on a juicy rebound</h1>
+			<p>
+				Anaheim Ducks forward Kyle Palmieri collects a juicy rebound and sweeps the puck past Calgary Flames goalie Jonas Hiller to go up 4-2 in the third.
+			</p>
+			<div id="video-tags">
+				<a class="tag" href="#">#tag</a>
+				<a class="tag" href="#">#tag</a>
+				<a class="tag" href="#">#tag</a>
+				<a class="tag" href="#">#tag</a>
+			</div>
+			
+		</div>
+		<div id="video-comments">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=724766974282567&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+		</div>
+		
+	</div>
+	
+	<!-- right col-->
+	<div id="video-related">
+		<div class="video-related-section">
+			
+			<!-- up next -->
+			<!--
+			<div class="video-related-header">
+				<h4>RELATED</h4>
+			</div>
+			<div class="video-related-collection">
+
+				<div class="video-related-single video" data-id="1235">
+					<div class="thumb">
+						<div class="user-favorite">
+							<a class="user-favorite-action" href="#"></a>
+						</div>
+						<div class="share">
+							<a class="share-action" href="#"></a>
+						</div>
+					</div>
+					<div class="video-related-title">
+						<h5>Related Video Title</h5>
+					</div>
+					<div class="video-related-length-date">
+						<span id="video-related-length">
+						</span>
+						<span id="video-related-date">
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end up next -->
+		
+		<!-- related -->
+		<div class="video-related-section">
+			
+			<div class="video-related-header">
+				<h4>RELATED</h4>
+			</div>
+			<div class="video-related-collection">
+				
+				<div class="video-related-single video" data-id="1235">
+					<div class="thumb">
+						<img src="http://3.cdn.nhle.com/nhl/images/upload/2015/02/Backes_022515_small2.jpg" />
+						<div class="user-favorite">
+							<a class="user-favorite-action" href="#"></a>
+						</div>
+						<div class="share">
+							<a class="share-action" href="#"></a>
+						</div>
+					</div>
+					<h5 class="">Video Title</h5>
+					<div class="video-related-length-date">
+						<span>00:46</span> | <span>4 hours ago</span>
+					</div>
+				</div>
+				
+				<div class="video-related-single video" data-id="1235">
+					<div class="thumb">
+						<img src="http://3.cdn.nhle.com/nhl/images/upload/2015/02/Backes_022515_small2.jpg" />
+						<div class="user-favorite">
+							<a class="user-favorite-action" href="#"></a>
+						</div>
+						<div class="share">
+							<a class="share-action" href="#"></a>
+						</div>
+					</div>
+					<h5 class="">Video Title</h5>
+					<div class="video-related-length-date">
+						<span>00:46</span> | <span>4 hours ago</span>
+					</div>
+				</div>
+				
+				<div class="video-related-single video" data-id="1235">
+					<div class="thumb">
+						<img src="http://3.cdn.nhle.com/nhl/images/upload/2015/02/Backes_022515_small2.jpg" />
+						<div class="user-favorite">
+							<a class="user-favorite-action" href="#"></a>
+						</div>
+						<div class="share">
+							<a class="share-action" href="#"></a>
+						</div>
+					</div>
+					<h5 class="">Video Title</h5>
+					<div class="video-related-length-date">
+						<span>00:46</span> | <span>4 hours ago</span>
+					</div>
+				</div>
+				
+				<div class="video-related-single video" data-id="1235">
+					<div class="thumb">
+						<img src="http://3.cdn.nhle.com/nhl/images/upload/2015/02/Backes_022515_small2.jpg" />
+						<div class="user-favorite">
+							<a class="user-favorite-action" href="#"></a>
+						</div>
+						<div class="share">
+							<a class="share-action" href="#"></a>
+						</div>
+					</div>
+					<h5 class="">Video Title</h5>
+					<div class="video-related-length-date">
+						<span>00:46</span> | <span>4 hours ago</span>
+					</div>
+				</div>
+				
+				<!-- add new videos here -->
+				
+			</div>
+		</div>
+		
+	</div>
+</div>
+<!-- end video content area -->
+
+</body>
+</html>
